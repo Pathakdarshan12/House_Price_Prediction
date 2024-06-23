@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction App Project Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0077b5;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #005183;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="https://github.com/Pathakdarshan12/Data-Science/tree/main/Machine_Learning">House Price Prediction App Project Report</a></h1>
+        <h2>1. Introduction</h2>
+        <p>The House Price Prediction App is a machine learning-based web application developed to predict the prices of houses in India. The purpose of this project is to provide users with a convenient tool to estimate house prices based on various factors such as the number of rooms, bathrooms, balconies, total area, flat type, and city.</p>
+        <h2>2. Background</h2>
+        <p>Predicting house prices accurately is crucial for both buyers and sellers in the real estate market. Buyers can use price predictions to make informed decisions about purchasing properties, while sellers can use them to set competitive prices and maximize profits. Machine learning models like XGBoost regression offer a data-driven approach to estimate house prices, considering multiple factors that influence pricing.</p>
+        <h2>3. Technologies Used</h2>
+        <ul>
+            <li>Streamlit</li>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>XGBoost</li>
+            <li>Matplotlib</li>
+        </ul>
+        <h2>4. Project Components</h2>
+        <h3>4.1. Data Preprocessing</h3>
+        <p>The project begins with data preprocessing, including data cleaning and feature engineering. Features such as the number of rooms, bathrooms, balconies, and total area are scaled and processed to prepare the dataset for model training.</p>
+
+        <h3>4.2. Model Training</h3>
+        <p>The XGBoost regression model is trained using the preprocessed dataset. Hyperparameters like learning rate, max depth, and number of estimators are tuned to optimize the model's performance. The trained model is saved using the pickle library for later use.</p>
+
+        <h3>4.3. Streamlit Application</h3>
+        <p>The core of the project is the Streamlit web application, which provides an intuitive user interface for interacting with the house price prediction model. Users can input details about the house, such as the number of rooms, bathrooms, balconies, flat type, city, and total area, and the application predicts the house price based on these inputs.</p>
+        <h2>5. Demonstration</h2>
+        <p>The application features a sidebar with options for selecting the input parameters. Users can adjust the sliders and dropdown menus to input their desired house features. Upon clicking the "Predict House Price" button, the application displays the predicted house price along with relevant visualizations, such as mean house prices for each city.</p>
+
+        <h2>6. Results</h2>
+        <p>The House Price Prediction App accurately predicts house prices based on the input parameters provided by the user. The XGBoost regression model achieves high accuracy in estimating house prices, providing valuable insights for both buyers and sellers in the real estate market.</p>
+
+        <h2>7. Conclusion</h2>
+        <p>The House Price Prediction App is a useful tool for estimating house prices in India. By leveraging machine learning techniques, the application provides valuable insights for individuals involved in the real estate market, facilitating informed decision-making and improving overall efficiency.</p>
+        <h2>8. References</h2>
+            <ul>
+                <li>Streamlit Documentation: <a href="https://streamlit.io/">https://streamlit.io/</a></li>
+                <li>Pandas Documentation: <a href="https://pandas.pydata.org/docs/">https://pandas.pydata.org/docs/</a></li>
+                <li>XGBoost Documentation: <a href="https://xgboost.readthedocs.io/">https://xgboost.readthedocs.io/</a></li>
+                <li>Matplotlib Documentation: <a href="https://matplotlib.org/stable/contents.html">https://matplotlib.org/stable/contents.html</a></li>
+            </ul>
+        3<h2>9. Credentials</h2>
+            <p>Developed by Darshan Pathak</p>
+            <p>GitHub: <a href="https://github.com/Pathakdarshan12">https://github.com/Pathakdarshan12</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/pathakdarshan12">https://www.linkedin.com/in/pathakdarshan12</a></p>
+    </div>
+</body>
+</html>
