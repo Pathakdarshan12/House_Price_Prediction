@@ -1,6 +1,6 @@
 # House Price Prediction App
 
-<img src="https://github.com/">
+<img src="https://github.com/Pathakdarshan12/House_Price_Prediction/blob/main/HousePrice.png" />
 
 ## Introduction
 The House Price Prediction App is a machine learning-based web application developed to predict house prices in India. The purpose of this project is to provide users with a convenient tool to estimate house prices based on various factors such as the number of rooms, bathrooms, balconies, total area, flat type, and city.
@@ -46,8 +46,8 @@ Developed by Darshan Pathak
 ## How to Run the Project
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/house-price-prediction-app.git
-   cd house-price-prediction-app
+   git clone https://github.com/Pathakdarshan12/House_Price_Prediction.git
+   cd House_Price
    ```
 
 2. **Install the required dependencies:**
@@ -71,4 +71,20 @@ Developed by Darshan Pathak
 - `README.md`: Project documentation file (this file).
 
 ## Contact
-For any questions or suggestions, feel free to contact Darshan Pathak at darshan.pathak@example.com.
+<p align="left">
+<a href="https://www.linkedin.com/in/pathakdarshan12/" target="blank">
+    <img align="center" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg" alt="linkedin" height="30" width="40" />
+</a>
+<a href="https://x.com/_Pathak_Darshan" target="blank">
+    <img align="center" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Twitter.svg" alt="twitter" height="30" width="40" />
+</a>
+<a href="https://www.instagram.com/pathakdarshan12/" target="blank">
+    <img align="center" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Instagram.svg" alt="instagram" height="30" width="40" />
+</a>
+<a href="mailto:pathakdarshan12@gmail.com" target="blank">
+    <img align="center" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Gmail-Dark.svg" alt="gmail" height="30" width="40" />
+</a>
+</p>
+
+![](https://komarev.com/ghpvc/?username=Pathakdarshan12&style=plastic)
+
